@@ -10,6 +10,7 @@ public class Cinta {
         for (String s:entrada) {
             Casilla c = new Casilla(count, s);
             elemts.put(count, c);
+            count ++;
         }
 
     }
@@ -41,5 +42,16 @@ public class Cinta {
             elemts.put(index, new Casilla(index, simbol));
         }
 
+    }
+
+    @Override
+    public String toString() {
+        String s = "";
+
+        for(Casilla c : elemts.values()){
+            s += "[" + c.getSimbolo() + "]";
+        }
+
+        return "..." + s + "..." ;
     }
 }

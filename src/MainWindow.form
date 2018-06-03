@@ -163,16 +163,18 @@
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Masx. iteraciones"/>
             </properties>
           </component>
-          <component id="34bd1" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+          <component id="34bd1" class="javax.swing.JTextField" binding="txt_max_iter" custom-create="true">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <text value="100000"/>
+            </properties>
           </component>
           <component id="b7aab" class="javax.swing.JButton" binding="btn_ejecutar" custom-create="true">
             <constraints>
